@@ -39,6 +39,7 @@
   --color-theme-accent:#f54e00;
   --link-hover-color: color-mix(in oklab, var(--color-theme-accent) 75%, transparent);
   --color-theme-button-hover-bg: #d7d5d5;
+  --color-theme-card-hover-light-hex: #1d1b15;
 }
 
 .container {
@@ -317,6 +318,12 @@ main {
   border-radius: var(--radius-xs);
   background-color: #1b1912;
   width: 100%;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.features-content:hover {
+  background-color: var(--color-theme-card-hover-light-hex);
 }
 
 .features-content--image-left {
@@ -534,6 +541,12 @@ main {
   display: flex;
   flex-direction: column;
   gap: 0.6rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.changelog-card:hover {
+  background-color: var(--color-theme-card-hover-light-hex);
 }
 
 .changelog-meta {
@@ -669,6 +682,12 @@ main {
   display: flex;
   flex-direction: column;
   gap: 1.4rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.highlight-card:hover {
+  background-color: var(--color-theme-card-hover-light-hex);
 }
 
 .highlight-card + .highlight-card {
@@ -792,6 +811,10 @@ main {
   font-family: var(--font-cursor);
   font-size: 0.8rem;
   color: var(--color-text-muted);
+}
+
+.footer-meta-link:hover {
+  color: var(--color-text);
 }
 
 .footer-bottom-right {
