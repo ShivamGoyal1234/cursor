@@ -3,6 +3,10 @@
 This project is a static recreation of the main marketing page for Cursor, built with plain HTML and CSS.
 
 
+## 📸 Live Demo 
+
+https://cursorc.netlify.app/
+
 ## 📸 Preview
 
 ![Cursor landing page – desktop](assets/desktop.png)
